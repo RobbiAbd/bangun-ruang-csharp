@@ -47,11 +47,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\Balok.cs" />
+    <Compile Include="Controllers\Bola.cs" />
+    <Compile Include="Controllers\Kerucut.cs" />
+    <Compile Include="Controllers\Tabung.cs" />
     <Compile Include="Forms\BalokForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\BalokForm.Designer.cs">
       <DependentUpon>BalokForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BolaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BolaForm.Designer.cs">
+      <DependentUpon>BolaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\HomeForm.cs">
       <SubType>Form</SubType>
@@ -61,11 +70,23 @@
     </Compile>
     <Compile Include="Controllers\Home.cs" />
     <Compile Include="Controllers\Kubus.cs" />
+    <Compile Include="Forms\KerucutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KerucutForm.Designer.cs">
+      <DependentUpon>KerucutForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\KubusForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\KubusForm.Designer.cs">
       <DependentUpon>KubusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TabungForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TabungForm.Designer.cs">
+      <DependentUpon>TabungForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
@@ -73,11 +94,20 @@
     <EmbeddedResource Include="Forms\BalokForm.resx">
       <DependentUpon>BalokForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BolaForm.resx">
+      <DependentUpon>BolaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\HomeForm.resx">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KerucutForm.resx">
+      <DependentUpon>KerucutForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\KubusForm.resx">
       <DependentUpon>KubusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TabungForm.resx">
+      <DependentUpon>TabungForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

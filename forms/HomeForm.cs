@@ -1,4 +1,5 @@
 ﻿using BangunRuang.forms;
+using BangunRuang.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -40,6 +41,27 @@ namespace BangunRuang
         private void HomeForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            KerucutForm form = new KerucutForm();
+            form.Show();
+        }
+
+        private void btnBola_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            BolaForm form = new BolaForm();
+            form.Show();
+        }
+
+        private void btnTabung_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TabungForm form = new TabungForm();
+            form.Show();
         }
     }
 }
