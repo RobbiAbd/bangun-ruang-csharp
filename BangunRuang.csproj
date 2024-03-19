@@ -46,52 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="controllers\Balok.cs" />
-    <Compile Include="forms\BalokForm.cs">
+    <Compile Include="Controllers\Balok.cs" />
+    <Compile Include="Forms\BalokForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\BalokForm.Designer.cs">
+    <Compile Include="Forms\BalokForm.Designer.cs">
       <DependentUpon>BalokForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="forms\HomeForm.cs">
+    <Compile Include="Forms\HomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\HomeForm.Designer.cs">
+    <Compile Include="Forms\HomeForm.Designer.cs">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="controllers\Home.cs" />
-    <Compile Include="controllers\Kubus.cs" />
-    <Compile Include="forms\KubusForm.cs">
+    <Compile Include="Controllers\Home.cs" />
+    <Compile Include="Controllers\Kubus.cs" />
+    <Compile Include="Forms\KubusForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="forms\KubusForm.Designer.cs">
+    <Compile Include="Forms\KubusForm.Designer.cs">
       <DependentUpon>KubusForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="forms\BalokForm.resx">
+    <EmbeddedResource Include="Forms\BalokForm.resx">
       <DependentUpon>BalokForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\HomeForm.resx">
+    <EmbeddedResource Include="Forms\HomeForm.resx">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="forms\KubusForm.resx">
+    <EmbeddedResource Include="Forms\KubusForm.resx">
       <DependentUpon>KubusForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
